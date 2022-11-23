@@ -1,0 +1,36 @@
+@charset "utf-8";
+
+/*Paleta de cores
+#000000
+#4F4F4F
+#A9A9A9
+#D3D3D3
+#00FA9A
+*/
+
+/*Geral*/
+:root {
+    --main-color: #000000;
+    --primary-text-color: #4F4F4F;
+    --secondary-text-color: #A9A9A9;
+    --secondary-color: #D3D3D3;
+    --secundary-bg-color: #5c1011;
+    --terciary-color: #00FA9A;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Robotoo', sans-serif;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: var(--main-color);
+}
+
+img {
+    border-radius: 100%;
+    border: 2px solid #ff0000;
+}
