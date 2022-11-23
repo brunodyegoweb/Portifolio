@@ -1,12 +1,5 @@
 @charset "utf-8";
 
-/*Paleta de cores
-#000000
-#4F4F4F
-#A9A9A9
-#D3D3D3
-#00FA9A
-*/
 
 /*Geral*/
 :root {
@@ -20,10 +13,7 @@
 
 
 * {
-    margin: 0;
-    padding: 0;
-    font-family: 'Robotoo', sans-serif;
-    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
 }
 
 header {
