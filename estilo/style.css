@@ -11,11 +11,6 @@
     --terciary-color: #00FA9A;
 }
 
-
-* {
-    font-family: 'Roboto', sans-serif;
-}
-
 header {
     background-color: var(--main-color);
 }
@@ -23,4 +18,22 @@ header {
 img {
     border-radius: 100%;
     border: 2px solid #ff0000;
+}
+
+a {
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none; 
+    margin-right: 30px; 
+    font-family: 'Fira Code', Arial, Helvetica, sans-serif;  
+}
+#botton {
+    display:inline-block;
+    background-color: var(--terciary-color);
+    height: 60px;
+    line-height: 60px;
+    padding-left: 20px;
+    padding-right: 20px;
+   /* box-shadow: 5px 5px 0px #000;*/
 }
