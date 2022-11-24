@@ -15,9 +15,14 @@ header {
     background-color: var(--main-color);
 }
 
+nav {
+    text-align: right;
+}
+
 img {
     border-radius: 100%;
     border: 2px solid #ff0000;
+    margin-top: 10px;
 }
 
 a {
