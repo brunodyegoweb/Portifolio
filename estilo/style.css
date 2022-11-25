@@ -26,7 +26,8 @@ img {
 }
 
 a {
-    
+    display: inline-flex; 
+    align-items: center;
     color: #fff;
     font-size: 20px;
     font-weight: bold;
@@ -36,7 +37,6 @@ a {
 }
 
 a::before {
-    display: inline-block;
     content: '';
     background-color: var(--terciary-color);
     width: 10px;
