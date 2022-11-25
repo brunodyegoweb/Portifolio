@@ -21,17 +21,27 @@ nav {
 
 img {
     border-radius: 100%;
-    border: 2px solid #ff0000;
+    border: 2px solid var(--secundary-bg-color);
     margin-top: 10px;
 }
 
 a {
+    
     color: #fff;
     font-size: 20px;
     font-weight: bold;
     text-decoration: none; 
     margin-right: 30px; 
     font-family: 'Fira Code', Arial, Helvetica, sans-serif;  
+}
+
+a::before {
+    display: inline-block;
+    content: '';
+    background-color: var(--terciary-color);
+    width: 10px;
+    height: 10px;
+    margin-right: 10px;
 }
 #botton {
     display:inline-block;
