@@ -12,7 +12,11 @@
 }
 
 header {
+    display: flex;
+    justify-content: space-between;
     background-color: var(--main-color);
+    border-bottom: 10px solid var(--primary-text-color);
+    padding: 10px 20px;
 }
 
 nav {
@@ -48,6 +52,7 @@ a::before {
     background-color: var(--terciary-color);
     height: 60px;
     line-height: 60px;
-    padding: 18px 20px;
+    padding: 8px 10px;
    /* box-shadow: 5px 5px 0px #000;*/
+   margin-right: 0;
 }
