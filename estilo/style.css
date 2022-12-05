@@ -19,7 +19,7 @@ header {
     padding: 10px 20px;
 }
 
-h1 {
+h1, h2, h3 {
     font-family: 'Press Start 2P', sans-serif;
 }
 
@@ -65,4 +65,16 @@ a::before {
 #botton:hover {
     filter: brightness(1.2); 
     transform: translateY(-2px);
+}
+
+.banner {
+    position: absolute;
+    text-align: center;
+    /*line-height: 184px;*/
+    background-color: var(--secondary-text-color);
+    width: 627px;
+    height: 184px;
+    left: 91px;
+    top: 196px;
+    
 }
