@@ -1,0 +1,23 @@
+@charset "utf-8";
+
+:root {
+    --main-color: #000000;
+    --primary-text-color: #4F4F4F;
+    --secondary-text-color: #A9A9A9;
+    --secondary-color: #D3D3D3;
+    --secundary-bg-color: #fff;
+    --terciary-color: #00FA9A;
+}
+
+#banner {
+    display: inline-block;
+     text-align: center;
+     /*line-height: 184px;*/
+     background-color: var(--primary-text-color);
+     box-shadow: 10px 10px 0 #000; 
+     padding: 42px 44px
+ }
+
+ #banner h1 {
+    margin-bottom: 28px;  
+ }
