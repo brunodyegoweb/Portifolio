@@ -52,31 +52,3 @@ a::before {
     height: 10px;
     margin-right: 10px;
 }
-#botton {
-    display:inline-block;
-    background-color: var(--terciary-color);
-    height: 60px;
-    line-height: 60px;
-    padding: 8px 10px;
-   /* box-shadow: 5px 5px 0px #000;*/
-   margin-right: 0;
-   transition: all 250ms;
-}
-
-#botton:hover {
-    filter: brightness(1.2); 
-    transform: translateY(-2px);
-}
-
-.banner {
-   position: absolute;
-    text-align: center;
-    /*line-height: 184px;*/
-    background-color: var(--primary-text-color);
-    box-shadow: 10px 10px 0 #000;
-    width: 627px;
-    height: 184px;
-    left: 91px;
-    top: 196px;
-    padding-top: 72px;    
-}

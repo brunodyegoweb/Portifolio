@@ -1,0 +1,26 @@
+@charset "utf-8";
+
+:root {
+    --main-color: #000000;
+    --primary-text-color: #4F4F4F;
+    --secondary-text-color: #A9A9A9;
+    --secondary-color: #D3D3D3;
+    --secundary-bg-color: #fff;
+    --terciary-color: #00FA9A;
+}
+
+#botton {
+    display:inline-block;
+    background-color: var(--terciary-color);
+    height: 60px;
+    line-height: 60px;
+    padding: 8px 10px;
+   /* box-shadow: 5px 5px 0px #000;*/
+   margin-right: 0;
+   transition: all 250ms;
+}
+
+#botton:hover {
+    filter: brightness(1.2); 
+    transform: translateY(-2px);
+}
