@@ -9,7 +9,7 @@
     --terciary-color: #00FA9A;
 }
 
-#botton {
+.botton {
     display:inline-block;
     background-color: var(--terciary-color);
     height: 60px;
@@ -20,7 +20,7 @@
    transition: all 250ms;
 }
 
-#botton:hover {
+.botton:hover {
     filter: brightness(1.2); 
     transform: translateY(-2px);
 }
