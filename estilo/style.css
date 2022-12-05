@@ -21,6 +21,7 @@ header {
 
 h1, h2, h3 {
     font-family: 'Press Start 2P', sans-serif;
+    font-size: 2rem;
 }
 
 nav {
@@ -68,25 +69,14 @@ a::before {
 }
 
 .banner {
-    position: absolute;
+   position: absolute;
     text-align: center;
     /*line-height: 184px;*/
-    background-color: var(--secondary-text-color);
-    box-shadow: 5px 5px 0 #000;
+    background-color: var(--primary-text-color);
+    box-shadow: 10px 10px 0 #000;
     width: 627px;
     height: 184px;
     left: 91px;
     top: 196px;
     padding-top: 72px;    
-}
-
-div > h2 {
-    color: var(--terciary-color);
-    text-shadow: 5px 5px 0 #000;   
-    margin-bottom: 15px; 
-}
-
-div > h3 {
-    color: var(--secundary-bg-color);
-    text-shadow: 5px 5px 0 #000; 
 }
