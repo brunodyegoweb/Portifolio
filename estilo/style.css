@@ -11,13 +11,7 @@
     --terciary-color: #00FA9A;
 }
 
-header {
-    display: flex;
-    justify-content: space-between;
-    background-color: var(--main-color);
-    border-bottom: 10px solid var(--primary-text-color);
-    padding: 10px 20px;
-}
+
 
 h1, h2, h3 {
     font-family: 'Press Start 2P', sans-serif;
@@ -34,21 +28,4 @@ img {
     margin-top: 10px;
 }
 
-a {
-    display: inline-flex; 
-    align-items: center;
-    color: #fff;
-    font-size: 20px;
-    font-weight: bold;
-    text-decoration: none; 
-    margin-right: 30px; 
-    font-family: 'Fira Code', Arial, Helvetica, sans-serif;  
-}
 
-a::before {
-    content: '';
-    background-color: var(--terciary-color);
-    width: 10px;
-    height: 10px;
-    margin-right: 10px;
-}
