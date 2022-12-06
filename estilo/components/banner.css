@@ -9,7 +9,7 @@
     --terciary-color: #00FA9A;
 }
 
-#banner {
+.banner {
     display: inline-block;
      text-align: center;
      /*line-height: 184px;*/
@@ -18,6 +18,6 @@
      padding: 42px 44px
  }
 
- #banner h1 {
+ .banner .title {
     margin-bottom: 28px;  
  }

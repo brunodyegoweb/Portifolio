@@ -9,7 +9,7 @@
     --terciary-color: #00FA9A;
 }
 
-h2 {
+.subtitle {
     font-family: 'Press Start 2P', sans-serif;
     font-size: 1.6rem;
     text-shadow: 4px 4px 0 #000;
