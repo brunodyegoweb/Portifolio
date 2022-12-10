@@ -10,6 +10,7 @@
 }
 
 .banner {
+    box-sizing: border-box;
     background-image: url(../../imagens/foto-5.jpg);
     height: 700px;
     background-size: 100%;
@@ -21,6 +22,13 @@
     display: flex;
     flex-direction: column;
     width: 640px;
+}
+
+.banner .box {
+    margin-top: 36px;
+    margin-left: 31px;
+    margin-bottom: 40px;
+
 }
 
 .banner .navigation {
