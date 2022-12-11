@@ -1,0 +1,52 @@
+@charset "UTF-8";
+
+:root {
+    --main-color: #000000;
+    --primary-text-color: #4F4F4F;
+    --secondary-text-color: #A9A9A9;
+    --secondary-color: #D3D3D3;
+    --secundary-bg-color: #fff;
+    --terciary-color: #00FA9A;
+}
+
+.section {
+    background-color: var(--secondary-text-color);
+    text-align: center;
+ 
+    padding-top: 50px;
+    padding-bottom: 100px;
+    border-bottom: 10px solid #000;
+}
+
+.section .skills{
+ margin-bottom: 62px;   
+}
+
+.section .content {
+    display: flex;  
+    margin-left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.section .html, .css, .javaScript {
+    margin-bottom: 38px;
+    margin-top: 168px;
+    padding: 20px;
+}
+
+.section .input {
+  margin-top: 10px; 
+  border: 5px solid #000; 
+}
+
+.section.-sec {
+    background-color: var(--secondary-color);
+}
+
+.section.-ter {
+    background-color: var(--main-color)
+}
+
+.section.-qua {
+    background-color:var(--primary-text-color);
+}
