@@ -1,7 +1,7 @@
 @charset "utf-8";
 
 :root {
-    --main-color: #000000;
+    --main-color: #000;
     --primary-text-color: #4F4F4F;
     --secondary-text-color: #A9A9A9;
     --secondary-color: #D3D3D3;
@@ -11,7 +11,15 @@
 
 .subtitle {
     font-family: 'Press Start 2P', sans-serif;
-    font-size: 1.6rem;
+    
     text-shadow: 4px 4px 0 #000;
     color: var(--secundary-bg-color)
+}
+
+.subtitle.-second {
+    color: var(--main-color);
+    text-shadow: 4px 4px 0 #fff;
+    text-align: center;
+    font-weight: bolder;
+
 }
