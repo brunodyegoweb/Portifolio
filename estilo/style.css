@@ -18,7 +18,7 @@ h1, h2, h3 {
     font-size: 2rem;
 }
 
-img {
+ .photo-perfil {
     border-radius: 100%;
     border: 2px solid var(--secundary-bg-color);
     margin-top: 10px;

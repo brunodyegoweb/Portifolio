@@ -1,0 +1,30 @@
+@charset "UTF-8";
+
+.banner-2 {
+    background-color: var(--secondary-text-color);
+    text-align: center;
+    box-sizing: border-box;
+    width: 1350px;
+    height: 730px;
+    padding-top: 50px;
+    border-bottom: 10px solid #000;
+    display: inline-block;
+
+}
+
+.banner-2 .skills{
+ margin-bottom: 62px;   
+}
+
+.banner-2 .content {
+    display: inline;
+}
+
+.banner-2 .html, .css, .javaScript{
+    margin-bottom: 38px;
+}
+
+.banner-2 .input {
+  
+  
+}
